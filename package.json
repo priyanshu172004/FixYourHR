@@ -2,6 +2,7 @@
   "name": "fixyourhr-fullstack",
   "version": "1.0.0",
   "scripts": {
-    "vercel-build": "cd client && npm install && npm run build"
+    "build": "cd client && npm install && npm run build",
+    "postinstall": "cd server && npm install"
   }
 }

@@ -1,5 +1,5 @@
 const Form = require('../models/Form');
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 const validator = require('validator');
 
 // @desc    Submit a new form
@@ -27,7 +27,7 @@ const submitForm = async (req, res, next) => {
         }
 
         const form = await Form.create({
-            id: uuidv4(),
+            id: crypto.randomUUID(),
             name: validator.escape(name),
             email: validator.normalizeEmail(email),
             phone: validator.escape(phone),

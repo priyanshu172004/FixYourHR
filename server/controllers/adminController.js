@@ -1,7 +1,7 @@
 const Admin = require('../models/Admin');
 const Form = require('../models/Form');
 const jwt = require('jsonwebtoken');
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 
 // Generate JWT
 const generateToken = (id) => {

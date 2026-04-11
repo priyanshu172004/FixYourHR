@@ -33,7 +33,9 @@ export default function AdminDashboard() {
         return () => clearTimeout(timeoutId);
     }, [navigate]);
 
-    const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.MODE === 'development' ? 'http://localhost:5000/api' : '/api');
+    // When deploying separately, VITE_API_URL must point to your absolute backend URL.
+    // e.g., VITE_API_URL=https://fixyourhr-backend.vercel.app/api
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
     const fetchForms = async (token) => {
         try {

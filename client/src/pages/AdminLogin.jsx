@@ -16,7 +16,8 @@ export default function AdminLogin() {
         setError("");
         
         try {
-            const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.MODE === 'development' ? 'http://localhost:5000/api' : '/api');
+            // When deploying separately, VITE_API_URL must point to your absolute backend URL.
+            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
             const res = await fetch(`${API_URL}/admin/login`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },

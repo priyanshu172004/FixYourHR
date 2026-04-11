@@ -56,7 +56,8 @@ export default function UserFormModal({ isOpen, onClose }) {
         setStatusData(null);
         
         try {
-            const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.MODE === 'development' ? 'http://localhost:5000/api' : '/api');
+            // When deploying separately, VITE_API_URL must point to your absolute backend URL.
+            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
             const response = await fetch(`${API_URL}/form/submit`, {
                 method: 'POST',
                 headers: {

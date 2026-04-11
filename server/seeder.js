@@ -2,7 +2,7 @@ const fs = require('fs');
 const bcrypt = require('bcryptjs');
 const mongoose = require('mongoose');
 const Admin = require('./models/Admin');
-const { v4: uuidv4 } = require('uuid');
+const crypto = require('crypto');
 require('dotenv').config();
 
 // Connect to MongoDB Database
@@ -11,7 +11,7 @@ mongoose.connect(process.env.MONGO_URI).then(async () => {
     const adminExists = await Admin.findOne({ username: 'adminShashank@FXR' });
     if (!adminExists) {
         await Admin.create({
-            id: uuidv4(),
+            id: crypto.randomUUID(),
             username: 'adminShashank@FXR',
             password: 'Shashank@#12345'
         });

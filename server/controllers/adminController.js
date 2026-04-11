@@ -97,7 +97,7 @@ const createAdmin = async (req, res, next) => {
             throw new Error('Admin already exists');
         }
         const admin = await Admin.create({
-            id: uuidv4(),
+            id: crypto.randomUUID(),
             username,
             password
         });

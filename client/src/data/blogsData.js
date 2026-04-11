@@ -3,7 +3,7 @@ export const blogsData = [
         id: 1,
         title: "GreytHR vs Keka",
         brief: "Choosing the right HR software can directly impact your company's efficiency and employee experience. In this detailed comparison of GreytHR and Keka, we break down features, pricing, payroll capabilities, performance management tools, and ease of use. We analyze which platform suits startups, SMEs, and growing enterprises better. From compliance management to automation features, every key module is compared side-by-side. Whether you're scaling fast or optimizing HR processes, this guide helps you make an informed decision. Read on to discover which solution aligns best with your business goals.",
-        image: "Assests/blogs/1722850886-greythr-v-keka.avif",
+        image: "/Assests/blogs/1722850886-greythr-v-keka.avif",
         content: `KekaHR vs greytHR — Which is Better in 2026?
 
 Choosing the right HR and payroll software can make a massive difference in how your business runs HR operations. Two of the most popular HRMS and payroll platforms in India are KekaHR and greytHR. Both are widely used, trusted, and powerful — but each shines in different areas.
@@ -38,7 +38,7 @@ If you’re still unsure which one fits your organisation best, Fix Your HR Now 
         id: 2,
         title: "Top HRMS Software in India",
         brief: "With countless HRMS platforms available today, selecting the right one can feel overwhelming. In this blog, we explore the top 10 HRMS software solutions trusted by businesses across industries. We evaluate them based on features, scalability, compliance support, user experience, and pricing. From payroll automation to performance tracking and employee engagement tools, we cover what truly matters. This curated list helps startups, mid-sized companies, and enterprises find the perfect HR solution. Make smarter HR tech decisions with our expert insights.",
-        image: "Assests/blogs/10-Best-HR-Payroll-Software-1.webp",
+        image: "/Assests/blogs/10-Best-HR-Payroll-Software-1.webp",
         content: `Top Payroll Software for Enterprises in India in 2026
 
 In 2026, Indian enterprises are increasingly moving beyond manual payroll and spreadsheets to automated, secure, and compliance-ready payroll software. Today’s payroll systems don’t just calculate salaries — they handle statutory compliance (PF, ESI, TDS), payslips, audits, integrations, multi-location rules, analytics, employee self-service portals, and more. 
@@ -70,7 +70,7 @@ The best enterprise payroll software in India goes beyond payslip generation —
         id: 3,
         title: "Best Payroll Software & HRMS in India",
         brief: "Payroll management in India requires strict compliance with PF, ESI, TDS, and labor laws. In this guide, we highlight the best payroll software and HRMS platforms designed specifically for Indian businesses. We compare automation capabilities, statutory compliance support, tax handling, reporting features, and integrations. Whether you are a startup or an established organization, choosing the right payroll system can save time and reduce errors. Discover the most reliable and cost-effective solutions available in the Indian market. Let FixYourHR help you simplify payroll and HR operations effortlessly.",
-        image: "Assests/blogs/Top-10-Best-HR-Software-in-India-scaled.jpg",
+        image: "/Assests/blogs/Top-10-Best-HR-Software-in-India-scaled.jpg",
         content: `Best HR Software in India 2026 — Complete Guide for Businesses
 
 In today’s fast-moving business world, having the right HR software in India is no longer a luxury — it’s a necessity. Whether you’re a startup, SME, or large organization, HR technology can help you automate processes, reduce errors, improve employee engagement, and focus on what matters most — growth.
@@ -99,14 +99,14 @@ Investing in the right HR software in India is no longer just about payroll or a
         id: 4,
         title: "Keka HR Software Review (Features, Pricing and Benefits)",
         brief: "Many companies in India are looking for modern HR software that can simplify payroll, attendance, and employee management. Among the available solutions, Keka has emerged as one of the most popular HR software platforms for growing businesses.",
-        image: "Assests/blogs/kekaBlog.webp",
+        image: "/Assests/blogs/kekaBlog.webp",
         contentFile: "/blogs/blog4.txt"
     },
     {
         id: 5,
         title: "Best HR Software in India for Growing Businesses",
         brief: "Choosing the right HR software can be challenging for businesses because there are many platforms available in the market. FixYourHR helps businesses simplify the process by finding the right fit for your company.",
-        image: "Assests/blogs/HR-SOFTWARE-IN-INDIA--.webp",
+        image: "/Assests/blogs/HR-SOFTWARE-IN-INDIA--.webp",
         contentFile: "/blogs/blog5.txt"
     }
 ];

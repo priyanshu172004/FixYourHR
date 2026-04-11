@@ -184,7 +184,7 @@ export default function About() {
                             >
                                 <div className="mb-6">
                                     <img 
-                                        src="Assests/Team/shashank (1).png"
+                                        src="/Assests/Team/shashank (1).png"
                                         alt="Shashank Limbachiya"
                                         className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-white/20"
                                     />
@@ -205,7 +205,7 @@ export default function About() {
                             >
                                 <div className="mb-6">
                                     <img 
-                                        src="Assests/Team/Matrika 5.png"
+                                        src="/Assests/Team/Matrika 5.png"
                                         alt="Matrika Singh"
                                         className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-white/20"
                                     />
@@ -226,7 +226,7 @@ export default function About() {
                             >
                                 <div className="mb-6">
                                     <img 
-                                        src="Assests/Team/jaipngfinal.png"
+                                        src="/Assests/Team/jaipngfinal.png"
                                         alt="Jai Yadav"
                                         className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-white/20 grayscale"
                                     />
@@ -247,7 +247,7 @@ export default function About() {
                             >
                                 <div className="mb-6">
                                     <img 
-                                        src="Assests/Team/Priyanshu-removebg-preview.png"
+                                        src="/Assests/Team/Priyanshu-removebg-preview.png"
                                         alt="Priyanshu Srivastava"
                                         className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-white/20"
                                     />

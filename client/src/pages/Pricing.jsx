@@ -7,7 +7,7 @@ export default function Pricing() {
     const cardData = [
         {
             title: "Keka",
-            logoSrc: "Assests/icons/keka-logo-36px.svg",
+            logoSrc: "/Assests/icons/keka-logo-36px.svg",
             rating: "4.9+",
             reviews: "1200+",
             costing: "₹ 60",
@@ -27,7 +27,7 @@ export default function Pricing() {
         },
         {
             title: "Zimyo",
-            logoSrc: "Assests/icons/zimyo_logo.png",
+            logoSrc: "/Assests/icons/zimyo_logo.png",
             rating: "4.1+",
             reviews: "900+",
             costing: "₹ 80",
@@ -47,7 +47,7 @@ export default function Pricing() {
         },
         {
             title: "Zoho People",
-            logoSrc: "Assests/icons/ZohoPeople.svg",
+            logoSrc: "/Assests/icons/ZohoPeople.svg",
             rating: "4.3+",
             reviews: "1100+",
             costing: "₹ 40",
@@ -65,7 +65,7 @@ export default function Pricing() {
         },
         {
             title: "Craze",
-            logoSrc: "Assests/icons/CrazeLogo.png",
+            logoSrc: "/Assests/icons/CrazeLogo.png",
             rating: "4.2+",
             reviews: "600+",
             costing: "₹ 40",
@@ -84,7 +84,7 @@ export default function Pricing() {
         },
         {
             title: "Greyt HR",
-            logoSrc: "Assests/icons/GreyTHR.svg",
+            logoSrc: "/Assests/icons/GreyTHR.svg",
             rating: "4.8+",
             reviews: "1450+",
             costing: "₹ 30",
@@ -103,7 +103,7 @@ export default function Pricing() {
         },
         {
             title: "Pocket HRMS",
-            logoSrc: "Assests/icons/WocoLogo.png",
+            logoSrc: "/Assests/icons/WocoLogo.png",
             rating: "4.3+",
             reviews: "1000+",
             costing: "₹ 40",
@@ -123,7 +123,7 @@ export default function Pricing() {
         },
         {
             title: "Darwin Box",
-            logoSrc: "Assests/icons/Darwinbox_2.png",
+            logoSrc: "/Assests/icons/Darwinbox_2.png",
             rating: "4.5+",
             reviews: "1100+",
             costing: "₹ 100",
@@ -144,7 +144,7 @@ export default function Pricing() {
         },
         {
             title: "Qandle",
-            logoSrc: "Assests/icons/qandle.svg",
+            logoSrc: "/Assests/icons/qandle.svg",
             rating: "4.7+",
             reviews: "1350+",
             costing: "₹ 50",
@@ -161,7 +161,7 @@ export default function Pricing() {
         },
         {
             title: "Akrivia HCM",
-            logoSrc: "Assests/icons/akrivia-logo.svg",
+            logoSrc: "/Assests/icons/akrivia-logo.svg",
             rating: "4.1+",
             reviews: "980+",
             costing: "₹ 0",
@@ -182,7 +182,7 @@ export default function Pricing() {
         },
         {
             title: "Razorpay",
-            logoSrc: "Assests/icons/Razorpay.svg",
+            logoSrc: "/Assests/icons/Razorpay.svg",
             rating: "4.8+",
             reviews: "1200+",
             costing: "₹ 100",
@@ -202,7 +202,7 @@ export default function Pricing() {
         },
         {
             title: "HRone",
-            logoSrc: "Assests/icons/hrone_logo2025.svg",
+            logoSrc: "/Assests/icons/hrone_logo2025.svg",
             rating: "4.9+",
             reviews: "1450+",
             costing: "₹ 99",
@@ -223,17 +223,17 @@ export default function Pricing() {
     ];
 
     const logos = [
-        'Assests/icons/ZohoPeople.svg',
-        'Assests/icons/zimyo_logo.png',
-        'Assests/icons/keka-logo-36px.svg',
-        'Assests/icons/GreyTHR.svg',
-        'Assests/icons/Razorpay.svg',
-        'Assests/icons/CrazeLogo.png',
-        'Assests/icons/akrivia-logo.svg',
-        'Assests/icons/qandle.svg',
-        'Assests/icons/BayZat.svg',
-        'Assests/icons/WocoLogo.png',
-        'Assests/icons/Darwinbox_2.png',
+        '/Assests/icons/ZohoPeople.svg',
+        '/Assests/icons/zimyo_logo.png',
+        '/Assests/icons/keka-logo-36px.svg',
+        '/Assests/icons/GreyTHR.svg',
+        '/Assests/icons/Razorpay.svg',
+        '/Assests/icons/CrazeLogo.png',
+        '/Assests/icons/akrivia-logo.svg',
+        '/Assests/icons/qandle.svg',
+        '/Assests/icons/BayZat.svg',
+        '/Assests/icons/WocoLogo.png',
+        '/Assests/icons/Darwinbox_2.png',
     ];
 
     return (

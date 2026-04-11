@@ -7,19 +7,19 @@ const steps = [
         id: 1,
         title: "Tell Us Your Needs",
         description: "Fill out a short form about your requirements. We'll gather essential information about your business size, industry, budget, and specific HR functionality needs that suits your business.",
-        image: "Assests/feature-icons/workforce (1).png",
+        image: "/Assests/feature-icons/workforce (1).png",
     },
     {
         id: 2,
         title: "Get Personalized Recommendations",
         description: "We match you with the best HR software as per your needs. Our expert team analyzes your requirements and connects you with solutions that perfectly align with your business objectives.",
-        image: "Assests/feature-icons/customer-care.png",
+        image: "/Assests/feature-icons/customer-care.png",
     },
     {
         id: 3,
         title: "Compare, Choose And Implement",
         description: "Select the right software for your business and start using it. We support you through the decision-making process and provide resources to ensure a smooth implementation.",
-        image: "Assests/feature-icons/tracking.png",
+        image: "/Assests/feature-icons/tracking.png",
     },
 ];
 

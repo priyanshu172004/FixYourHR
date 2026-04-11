@@ -34,18 +34,18 @@ export default function FaqSection() {
 
     const floatingIcons = [
         // Left Side
-        { src: 'Assests/icons/GreyTHR.svg', top: '10%', left: '13%', delay: 0, width: 'w-32' },
-        { src: 'Assests/icons/ZohoPeople.svg', top: '35%', right: '20%', delay: 2, width: 'w-40' },
-        { src: 'Assests/icons/hrone_logo2025.svg', top: '52%', left: '8%', delay: 0.8, width: 'w-40' },
-        { src: 'Assests/icons/BayZat.svg', top: '70%', left: '15%', delay: 1.1, width: 'w-40' },
-        { src: 'Assests/icons/CrazeLogo.png', top: '87%', left: '10%', delay: 0.4, width: 'w-36' },
+        { src: '/Assests/icons/GreyTHR.svg', top: '10%', left: '13%', delay: 0, width: 'w-32' },
+        { src: '/Assests/icons/ZohoPeople.svg', top: '35%', right: '20%', delay: 2, width: 'w-40' },
+        { src: '/Assests/icons/hrone_logo2025.svg', top: '52%', left: '8%', delay: 0.8, width: 'w-40' },
+        { src: '/Assests/icons/BayZat.svg', top: '70%', left: '15%', delay: 1.1, width: 'w-40' },
+        { src: '/Assests/icons/CrazeLogo.png', top: '87%', left: '10%', delay: 0.4, width: 'w-36' },
 
         // Right Side
-        { src: 'Assests/icons/zimyo_logo.png', top: '15%', right: '13%', delay: 0.5, width: 'w-36' },
-        { src: 'Assests/icons/keka-logo-36px.svg', top: '35%', left: '20%', delay: 1.5, width: 'w-36' },
-        { src: 'Assests/icons/Darwinbox_2.png', top: '52%', right: '8%', delay: 1.2, width: 'w-40' },
-        { src: 'Assests/icons/qandle.svg', top: '70%', right: '15%', delay: 0.3, width: 'w-36' },
-        { src: 'Assests/icons/Razorpay.svg', top: '87%', right: '10%', delay: 0.7, width: 'w-20' },
+        { src: '/Assests/icons/zimyo_logo.png', top: '15%', right: '13%', delay: 0.5, width: 'w-36' },
+        { src: '/Assests/icons/keka-logo-36px.svg', top: '35%', left: '20%', delay: 1.5, width: 'w-36' },
+        { src: '/Assests/icons/Darwinbox_2.png', top: '52%', right: '8%', delay: 1.2, width: 'w-40' },
+        { src: '/Assests/icons/qandle.svg', top: '70%', right: '15%', delay: 0.3, width: 'w-36' },
+        { src: '/Assests/icons/Razorpay.svg', top: '87%', right: '10%', delay: 0.7, width: 'w-20' },
     ];
 
     return (

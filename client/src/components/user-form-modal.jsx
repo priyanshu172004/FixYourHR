@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { XIcon, CheckCircle2 } from 'lucide-react';
 
-import razorpay from '../../Assests/icons/Razorpay.svg';
-import greythr from '../../Assests/icons/GreyTHR.svg';
-import bayzat from '../../Assests/icons/BayZat.svg';
-import keka from '../../Assests/icons/keka-logo-36px.svg';
-import zimyo from '../../Assests/icons/zimyo_logo.png';
-import craze from '../../Assests/icons/CrazeLogo.png';
-import zoho from '../../Assests/icons/ZohoPeople.svg';
-import akrivia from '../../Assests/icons/akrivia-logo.svg';
+import razorpay from '/Assests/icons/Razorpay.svg';
+import greythr from '/Assests/icons/GreyTHR.svg';
+import bayzat from '/Assests/icons/BayZat.svg';
+import keka from '/Assests/icons/keka-logo-36px.svg';
+import zimyo from '/Assests/icons/zimyo_logo.png';
+import craze from '/Assests/icons/CrazeLogo.png';
+import zoho from '/Assests/icons/ZohoPeople.svg';
+import akrivia from '/Assests/icons/akrivia-logo.svg';
 
 const icons = [
     razorpay,

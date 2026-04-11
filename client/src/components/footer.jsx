@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
     const certificationImages = [
-        { src: 'Assests/certifications/gdpr.png', alt: 'GDPR Compliant' },
-        { src: 'Assests/certifications/iso logo registered trademark.gif', alt: 'ISO Certified' }
+        { src: '/Assests/certifications/gdpr.png', alt: 'GDPR Compliant' },
+        { src: '/Assests/certifications/iso logo registered trademark.gif', alt: 'ISO Certified' }
     ];
 
     return (

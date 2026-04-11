@@ -2,17 +2,17 @@ import { motion } from "framer-motion";
 
 export default function TrustedCompanies() {
     const logos = [
-        'Assests/icons/ZohoPeople.svg',
-        'Assests/icons/zimyo_logo.png',
-        'Assests/icons/keka-logo-36px.svg',
-        'Assests/icons/GreyTHR.svg',
-        'Assests/icons/Razorpay.svg',
-        'Assests/icons/CrazeLogo.png',
-        'Assests/icons/akrivia-logo.svg',
-        'Assests/icons/qandle.svg',
-        'Assests/icons/BayZat.svg',
-        'Assests/icons/WocoLogo.png',
-        'Assests/icons/Darwinbox_2.png',
+        '/Assests/icons/ZohoPeople.svg',
+        '/Assests/icons/zimyo_logo.png',
+        '/Assests/icons/keka-logo-36px.svg',
+        '/Assests/icons/GreyTHR.svg',
+        '/Assests/icons/Razorpay.svg',
+        '/Assests/icons/CrazeLogo.png',
+        '/Assests/icons/akrivia-logo.svg',
+        '/Assests/icons/qandle.svg',
+        '/Assests/icons/BayZat.svg',
+        '/Assests/icons/WocoLogo.png',
+        '/Assests/icons/Darwinbox_2.png',
     ]
 
     return (

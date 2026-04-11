@@ -13,7 +13,7 @@ export default function PricingPlans() {
             title: 'Automation',
             description: 'Complete HR management solution',
             price: '₹40',
-            logo: 'Assests/icons/ZohoPeople.svg',
+            logo: '/Assests/icons/ZohoPeople.svg',
             buttonText: 'Request Demo',
             features: [
                 'Employee database management',
@@ -29,7 +29,7 @@ export default function PricingPlans() {
             title: 'Payroll',
             description: 'Modern HR platform for growing teams',
             price: '₹60',
-            logo: 'Assests/icons/keka-logo-36px.svg',
+            logo: '/Assests/icons/keka-logo-36px.svg',
             mostPopular: true,
             topRated: true,
             buttonText: 'Request Demo',
@@ -47,7 +47,7 @@ export default function PricingPlans() {
             title: 'Engagement',
             description: 'All-in-one HRMS solution',
             price: '₹80',
-            logo: 'Assests/icons/zimyo_logo.png',
+            logo: '/Assests/icons/zimyo_logo.png',
             buttonText: 'Request Demo',
             features: [
                 'Core HR operations',

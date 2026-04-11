@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 
 // Import vector icons
-import expertAdviceIcon from "../../Assests/vector-icons/expert-advice.png";
-import saveMoneyIcon from "../../Assests/vector-icons/save-money.png";
-import sendIcon from "../../Assests/vector-icons/send.png";
-import rushIcon from "../../Assests/vector-icons/rush.png";
-import selectIcon from "../../Assests/vector-icons/select.png";
-import publicRelationIcon from "../../Assests/vector-icons/public-relation.png";
+import expertAdviceIcon from "/Assests/vector-icons/expert-advice.png";
+import saveMoneyIcon from "/Assests/vector-icons/save-money.png";
+import sendIcon from "/Assests/vector-icons/send.png";
+import rushIcon from "/Assests/vector-icons/rush.png";
+import selectIcon from "/Assests/vector-icons/select.png";
+import publicRelationIcon from "/Assests/vector-icons/public-relation.png";
 
 export default function Features() {
 

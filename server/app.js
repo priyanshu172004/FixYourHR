@@ -17,7 +17,8 @@ app.use(cors({
     credentials: true
 }));
 // Explicitly permit "preflight" OPTIONS requests globally so Vercel doesn't 404 them
-app.options('*', cors());
+// In Express 5, '*' is illegal as a string wildcard, so we use a regex /.*/
+app.options(/.*/, cors());
 
 app.use(express.json({ limit: '10kb' })); // Body parser limit
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));

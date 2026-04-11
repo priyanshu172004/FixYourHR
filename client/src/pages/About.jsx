@@ -225,8 +225,8 @@ export default function About() {
                                 transition={{ duration: 0.6, delay: 1.4 }}
                             >
                                 <div className="mb-6">
-                                    <img 
-                                        src="/Assests/Team/jaipngfinal.png"
+                                    <img
+                                        src="/Assests/Team/jaiPngFinal.png"
                                         alt="Jai Yadav"
                                         className="w-48 h-48 rounded-full mx-auto object-cover border-2 border-white/20 grayscale"
                                     />

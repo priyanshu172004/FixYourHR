@@ -11,9 +11,14 @@ const app = express();
 // Security Middlewares
 app.use(helmet());
 app.use(cors({
-    origin: process.env.NODE_ENV === 'production' ? process.env.FRONTEND_URL : '*',
+    // Using 'true' reflects the requesting origin back. 
+    // This perfectly bypasses any trailing slash typos or unread environment variables!
+    origin: true, 
     credentials: true
 }));
+// Explicitly permit "preflight" OPTIONS requests globally so Vercel doesn't 404 them
+app.options('*', cors());
+
 app.use(express.json({ limit: '10kb' })); // Body parser limit
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));
 
